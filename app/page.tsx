@@ -4,6 +4,7 @@ import MainHeader from "@/components/MainHeader";
 import InputLink from "@/components/InputLink";
 import AdvancedStatistic from "@/components/AdvancedStatistic";
 import Boost from "@/components/Boost";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
       </div>
       <div>
         <Boost />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
