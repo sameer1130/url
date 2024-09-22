@@ -2,6 +2,7 @@ import Image from "next/image";
 import {Appbar} from "@/components/index"
 import MainHeader from "@/components/MainHeader";
 import InputLink from "@/components/InputLink";
+import AdvancedStatistic from "@/components/AdvancedStatistic";
 
 export default function Home() {
   return (
@@ -13,8 +14,11 @@ export default function Home() {
       <div className="px-16">
         <MainHeader />
       </div>
-      <div>
+      <div className="">
         <InputLink />
+      </div>
+      <div>
+        <AdvancedStatistic />
       </div>
     </div>
   );

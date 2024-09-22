@@ -5,7 +5,7 @@ import PrimaryButton from "./PrimaryButton";
 
 export default function MainHeader(){
     return (<div>
-        <div className="flex justify-between items-center p-4">
+        <div className="flex justify-between items-center p-4 mb-20 py-20 border-slate-300">
             <div className="p-6">
                 <div className="font-extrabold text-7xl text-slate-800 p-2 leading-tight">
                     More Than just <br/>
