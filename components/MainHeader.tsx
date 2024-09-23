@@ -13,7 +13,7 @@ export default function MainHeader(){
                 </div>
                 
                 <div className="text-slate-400 text-2xl font-semibold p-2 leading-normal">
-                    Build your brand's recognition and get detailed <br/>
+                    Build your brand&rsquo;s recognition and get detailed <br/>
                     insights on how your links are performing.    
                 </div>
                 <div className="pt-6">

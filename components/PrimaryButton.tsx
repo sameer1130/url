@@ -4,7 +4,7 @@ export default function PrimaryButton({label, size, copy, onClick}:{
     label: string,
     size: string,
     copy: string,
-    onClick? : (event : any)=> void
+    onClick? : (event : React.MouseEvent<HTMLButtonElement>)=> void
 }){
 
     return (<div>

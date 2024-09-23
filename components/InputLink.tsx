@@ -3,7 +3,7 @@ import Shorten from "@/images/bg-shorten-desktop.svg"
 import Image from "next/image"
 import PrimaryButton from "./PrimaryButton"
 import DisplayLink from "./DisplayLink"
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent,  useState } from "react";
 
 
 
@@ -25,7 +25,7 @@ export default function InputLink(){
     const [code, setCode] = useState<string | null>()
     const [ogUrl, setOgUrl] = useState<string | null>()
 
-    const handleOnClick = async(e : FormEvent<HTMLFormElement>) => {
+    const handleOnClick = async(e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
         
        console.log(inputUrl)
