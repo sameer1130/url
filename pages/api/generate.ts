@@ -13,15 +13,15 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-    const {method} = req;
-
-    if(method ! == "POST"){
+    const { method } = req;
+    console.log(method)
+    if(method !== "POST"){
         return res.status(405).json({
             error: "Only Post request are allowed"
         })
     }
 
-    const {url } : RequestData = JSON.parse(req.body);
+    const { url } : RequestData = JSON.parse(req.body);
 
     const host = req.headers.host;
     const {shortCode, shortUrl } = generateShortLink(host!);

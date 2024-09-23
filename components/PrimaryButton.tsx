@@ -4,7 +4,7 @@ export default function PrimaryButton({label, size, copy, onClick}:{
     label: string,
     size: string,
     copy: string,
-    onClick? : ()=> void
+    onClick? : (event : any)=> void
 }){
 
     return (<div>

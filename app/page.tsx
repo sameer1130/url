@@ -1,10 +1,10 @@
 import Image from "next/image";
 import {Appbar} from "@/components/index"
-import MainHeader from "@/components/MainHeader";
-import InputLink from "@/components/InputLink";
-import AdvancedStatistic from "@/components/AdvancedStatistic";
-import Boost from "@/components/Boost";
-import Footer from "@/components/Footer";
+import {MainHeader} from "@/components/index";
+import {InputLink} from "@/components/index";
+import {AdvancedStatistic} from "@/components/index";
+import {Boost} from "@/components/index";
+import {Footer} from "@/components/index";
 
 export default function Home() {
   return (
