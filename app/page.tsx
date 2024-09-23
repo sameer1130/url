@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import {Appbar} from "@/components/index"
 import {MainHeader} from "@/components/index";
 import {InputLink} from "@/components/index";

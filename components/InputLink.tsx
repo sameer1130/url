@@ -34,8 +34,7 @@ export default function InputLink(){
             const {data, statusCode, error} = await createUrl(inputUrl)
             console.log(data)
             if(statusCode == 200){
-                console.log("hi")
-                console.log(data)
+                console.log(error)
             }
             setCode(data.code)
             setOgUrl(data.originalUrl)
