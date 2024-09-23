@@ -8,7 +8,7 @@ import { ChangeEvent,  useState } from "react";
 
 
 async function createUrl(url: string){
-    const res = await fetch("https://url-eosin.vercel.app/api/generate",{
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/generate`,{
         method: "POST",
         body: JSON.stringify({ url }),
     });
